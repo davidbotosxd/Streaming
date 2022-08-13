@@ -5,6 +5,7 @@ import Video from "./Video.mp4";
 function App() {
   return (
     <div className="App">
+      <p>boltar</p>
         <video controls autostart autoPlay src={Video} type="video/mp4" />
     </div>
   );
